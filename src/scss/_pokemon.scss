@@ -1,0 +1,23 @@
+.pokemon {
+    background-color: #111;
+
+    margin: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100px;
+
+    &__name {
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+
+        text-transform: capitalize;
+    }
+
+    &__img {
+        height: 200px;
+    }
+}
